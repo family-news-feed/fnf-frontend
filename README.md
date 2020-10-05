@@ -1,5 +1,5 @@
 # Family New Feed Static
-Static project website for Family News Feed.
+Frontend Typescript React code for the Family News Feed project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
