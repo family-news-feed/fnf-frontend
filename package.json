@@ -9,6 +9,7 @@
     "start": "node scripts/start.js",
     "build": "rimraf ./build && npm run lint && node scripts/build.js",
     "test": "node scripts/test.js",
+    "test:ci": "node scripts/test.js --watchAll=false",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint --ext .js,.ts,.jsx,.tsx .",
     "lint:prettier": "prettier --ignore-unknown . --check",
