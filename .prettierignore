@@ -1,0 +1,15 @@
+node_modules
+build
+public
+src/assets
+yarn*
+*.md
+*.html
+package*.json
+tsconfig.json
+.browserslistrc
+.editorconfig
+.git*
+.nvmrc
+.prettierignore
+.prettierrc
