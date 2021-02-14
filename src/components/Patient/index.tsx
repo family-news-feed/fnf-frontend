@@ -18,7 +18,7 @@ interface PatientDataInterface {
 function Patient(): JSX.Element {
   const [data, setData] = useState<PatientDataInterface[]>([]);
 
-  const fetchData = () => {
+  const fetchData = (): void => {
     // TODO: update this function when we have authentication and backend req/res set up
     setData(patientData.patients);
   };
@@ -27,7 +27,7 @@ function Patient(): JSX.Element {
     fetchData();
   }, []);
 
-  const patientTableHead = () => {
+  const patientTableHead = (): JSX.Element => {
     return (
       <TableHead>
         <TableRow component="tr">
@@ -42,7 +42,7 @@ function Patient(): JSX.Element {
     );
   };
 
-  const patientTableBody = () => {
+  const patientTableBody = (): JSX.Element => {
     return (
       <TableBody>
         {data.map(p => (
