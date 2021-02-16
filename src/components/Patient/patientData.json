@@ -1,0 +1,28 @@
+{
+  "patients": [
+    {
+      "mrn": 1100,
+      "first_name": "Emily",
+      "last_name": "Werber",
+      "phone_number": "111-111-1111",
+      "last_status": "sick :(",
+      "is_eligible": true
+    },
+    {
+      "mrn": 1200,
+      "first_name": "Jasmine",
+      "last_name": "Gerlach",
+      "phone_number": "222-111-1111",
+      "last_status": "good",
+      "is_eligible": false
+    },
+    {
+      "mrn": 1300,
+      "first_name": "Nakamura",
+      "last_name": "Nagasaki",
+      "phone_number": "333-111-1111",
+      "last_status": "not good",
+      "is_eligible": true
+    }
+  ]
+}

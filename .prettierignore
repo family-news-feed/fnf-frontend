@@ -5,6 +5,7 @@ src/assets
 yarn*
 *.md
 *.html
+*.json
 package*.json
 tsconfig.json
 .browserslistrc
