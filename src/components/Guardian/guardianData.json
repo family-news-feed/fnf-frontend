@@ -1,0 +1,31 @@
+{
+  "guardians": [
+    {
+      "guardian_id": 2100,
+      "first_name": "Emily",
+      "last_name": "Werber",
+      "phone_number": "111-111-1111",
+      "time_start": "January 8 04:05:06 2004 PST",
+      "time_end": "January 8 04:05:06 2020 PST",
+      "preferred_language": "EN-US"
+    },
+    {
+      "guardian_id": 2200,
+      "first_name": "Jasmine",
+      "last_name": "Gerlach",
+      "phone_number": "222-111-1111",
+      "time_start": "March 23 01:21:23 2010 PST",
+      "time_end": "May 3 04:03:44 2012 PST",
+      "preferred_language": "EN-US"
+    },
+    {
+      "guardian_id": 2300,
+      "first_name": "Nakamura",
+      "last_name": "Nagasaki",
+      "phone_number": "333-111-1111",
+      "time_start": "June 8 12:05:23 2019 PST",
+      "time_end": "July 18 04:23:06 2019 PST",
+      "preferred_language": "ES-MX"
+    }
+  ]
+}
